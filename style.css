@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+#header{
+    background-color: hsl(240, 74%, 17%);
+    border: solid 5px black;
+    width: 100%;
+    margin-bottom: 20px;
+}
+h1{
+    font-family: 'Press Start 2P';
+    font-size: 2.5rem;
+    color: hsl(240, 100%, 50%);
+    padding: 10px 20px;
+    border: 6px solid hsl(0, 0%, 100%);
+    border-radius: 15px;
+    background-color: black;
+    display: inline-block;
+    text-shadow: 
+    -1px -1px 0 white,  
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+}
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2em;
+    background-color: hsl(224, 100%, 18%); /* Blue background color */
+}
+
+canvas{
+    border: solid 0.2em hsl(0, 0%, 100%);
+    height: 90vh;
+}
